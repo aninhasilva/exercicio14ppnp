@@ -1,0 +1,70 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0%;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: yellow;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    color: black;
+}
+header{
+    height: 600px;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(ciclista.jpg);
+}
+.headerbike{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 40pt;
+    margin: 0px;
+    justify-content: center;
+    height: 600px;
+}
+footer{
+    color: black ;
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 15px;
+    font-size: 15px;
+}
+footer button:hover{
+    border: 4px solid yellow;
+    color: yellow;
+}
+.campo {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+footer div form {
+    display: flex;
+    flex-direction: column;
+}
+
+.end{
+    margin: 0;
+    background-color: yellow;
+    height: 40px;
+    width: 100%;
+    align-content: center;
+    display: flex;
+    align-items: center;
+}
